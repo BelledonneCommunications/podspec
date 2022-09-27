@@ -21,6 +21,7 @@ Enabled features:
  * jpeg, JPEG support with libjpeg-turbo.
  * qrcode, QRCode support with zxing.
  * MKV, MKV playing and recording support.
+ * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
  * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
  * LIME X3DH, Enable Linphone IM Encryption version 2 support in  Liblinphone.
@@ -659,7 +660,7 @@ LICENSE
     }
   s.author       = { 'Belledonne Communications SARL' => 'linphone-iphone@belledonne-communications.com' }
   s.platform     = :ios, "9.0"
-  s.source       = { :http => "https://www.linphone.org/snapshots/ios//novideo/linphone-sdk-ios-5.2.0-alpha.339+3143b990.zip" }
+  s.source       = { :http => "https://download.linphone.org/snapshots/ios//novideo/linphone-sdk-ios-5.2.0-alpha.339+3143b990.zip" }
   s.vendored_frameworks = "linphone-sdk-novideo/apple-darwin/XCFrameworks/**"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => "arm64 x86_64" }
   s.user_target_xcconfig = { 'VALID_ARCHS' => "arm64 x86_64" }

@@ -30,7 +30,6 @@ Enabled features:
  * SRTP, SRTP media encryption support.
  * ZRTP, Build with ZRTP support (needs ENABLE_SRTP=ON).
  * GoClear, Build with ZRTP GoClear message support (RFC 6189 - section 5.11) (needs ENABLE_ZRTP=ON).
- * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
 PODSPEC_DESC
   s.homepage     = "https://github.com/BelledonneCommunications/linphone-iphone"
